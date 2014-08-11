@@ -35,6 +35,14 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+# Heroku
 gem 'heroku'
-
 gem 'rails_12factor', group: :production
+
+# Salesforce
+gem 'databasedotcom'
+gem 'databasedotcom-rails'
+
+# Omniauth
+gem 'omniauth-github', :git => 'git://github.com/intridea/omniauth-github.git'
+gem 'omniauth-openid', :git => 'git://github.com/intridea/omniauth-openid.git'
