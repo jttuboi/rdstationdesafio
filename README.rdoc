@@ -1,31 +1,9 @@
-== README
+== RDStation Desafio
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project is not finished. It was used the gem OmniAuth-Salesforce and/or the gem databasedotcom. The connection with salesforce it's OK, but it was difficult to manipulate data, example, select accounts and update one this account.
+Other project is rsstationdesafio2. It is a template of a project with connections already running. I just need to find how to CRUD data.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+-- Links
 
 https://developer.salesforce.com/page/Digging_Deeper_into_OAuth_2.0_on_Force.com
 https://github.com/takahiro-yonei/OmniAuth-Salesforce-Sample
