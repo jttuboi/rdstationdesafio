@@ -1,6 +1,21 @@
-<h2>Oi, eu sou Goku</h2>
-<p>
-	<%= Time.now %>
-</p>
 
-<%= link_to "Conectar Salesforces", controller: "welcome", action: "conectar" %>
+<%= form_tag :action => 'conectar' do %>
+  <%= submit_tag 'Conectar' %>
+<% end %>
+
+<% if current_user %>
+  Welcome <%= current_user.name %>!
+  <%= link_to "Sign Out", signout_path %>
+  
+
+ 
+<% else %>
+  <%= link_to "Sign in with Salesforce", "/auth/salesforce" %>
+<% end %>
+<br/>
+<p id="notice"><%= notice %></p>
+
+
+
+
+

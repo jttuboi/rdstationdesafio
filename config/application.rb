@@ -21,3 +21,7 @@ module Rdstationdesafio
     # config.i18n.default_locale = :de
   end
 end
+
+# RDStationDesafio - App Salesforce
+ENV['SALESFORCE_KEY'] = '3MVG9xOCXq4ID1uHwpuz_gk1vLEbIbu9JpVNMLwFw0UbelQm2495W8PRC.PdlLGPSklmkM0BuGLU8iTRvcS3U'
+ENV['SALESFORCE_SECRET'] = '8231085926162515390'

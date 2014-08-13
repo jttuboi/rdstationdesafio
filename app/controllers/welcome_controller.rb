@@ -1,7 +1,16 @@
 class WelcomeController < ApplicationController
-  def conectar
-    @dados = YAML.load(File.read(Rails.root.join('config/salesforce.yml')))
-    
+  
+  def index
   end
   
+  def conectar
+    # @client = Databasedotcom::Client.new("config/databasedotcom.yml")
+    # @client.authenticate request.env['omniauth.auth']
+    # puts "========================="
+    # names = @client.query("SELECT Name FROM Account") 
+    # puts "========================="
+    # puts names
+    # puts "========================="
+  end
 end
+    

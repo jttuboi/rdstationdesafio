@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.4'
 # Use postgresql as the database for Active Record
@@ -41,8 +40,13 @@ gem 'rails_12factor', group: :production
 
 # Salesforce
 gem 'databasedotcom'
-gem 'databasedotcom-rails'
+# gem 'databasedotcom-rails'
 
 # Omniauth
-gem 'omniauth-github', :git => 'git://github.com/intridea/omniauth-github.git'
-gem 'omniauth-openid', :git => 'git://github.com/intridea/omniauth-openid.git'
+# gem 'omniauth-salesforce'
+# gem 'omniauth-github', :git => 'git://github.com/intridea/omniauth-github.git'
+# gem 'omniauth-openid', :git => 'git://github.com/intridea/omniauth-openid.git'
+gem "omniauth"
+gem "omniauth-salesforce"
+
+gem 'manager_salesforce'
